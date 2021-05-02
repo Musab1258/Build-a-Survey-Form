@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reignite Training Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header">
+  <h1 id="title">Reignite Training Survey Form</h1>
+  <p id="description">Thank you for for taking your time to fill this form</p>
+  </div>
+  <div id="form">
+  <form id="survey-form" method="post" action="">
+    <p><label for="name">Name</label>
+  <br>
+    <input id="name" type="text" name="name" placeholder="Enter your name"></p>
+    <p><label for="email">Email</label>
+    <br>
+  <input id="email" type="email" name="email" placeholder="Enter your email"></p>
+    <p><label for="number">Age (optional)</label>
+    <br>
+    <input id="number" type="number" name="age" placeholder="Age" min="18" max="35"></p>
+    <p>  <label for="dropdown">Which option best describes your current programming level</label>
+  <br>
+    <select for="dropdown">
+    <option id="dropdown" name="level"><label for="name">Select current level</label></option>
+    <option id="dropdown" name="level" value="Beginner">Beginner</option>
+    <option id="dropdown" name="level" value="intermediate">Intermediate</option>
+    <option id="dropdown" name="level" value="Advanced">Advanced</option>
+    </select></p>
+    <p><label for="recommend">Would you recommend Reignite training to a friend</label>
+  <br>
+    <input id="Definitely" type="radio" name="recommend" value="Definitely">
+    <label id="radio" for="Definitely">Definitely</label>
+  <br>
+    <input id="Maybe" type="radio" name="recommend" value="Maybe">
+    <label id="radio" for="Maybe">Maybe</label>
+  <br>
+    <input id="Not sure" type="radio" name="recommend" value="Not sure">
+    <label id="radio" for="Not sure">Not sure</label>
+    </p>
+    <p>  <label for="dropdown">What is your favorite feature of Reignite training</label>
+  <br>
+    <select for="dropdown">
+    <option id="dropdown" name="favorite-feature"><label for="dropdown">Select favorite feature</label></option>
+    <option id="dropdown" name="favorite-feature" value="Videos">Videos</option>
+    <option id="dropdown" name="favorite-feature" value="Tasks">Tasks</option>
+    <option id="dropdown" name="favorite-feature" value="Games">Games</option>
+  </select></p>
+    <p><label for="improvement">What would you like to see improved</label>
+  <br>
+    <input id="Videos" type="checkbox" name="improvement" value="Videos">
+    <label id="checkbox" for="Videos">Videos</label>
+  <br>
+    <input id="Tasks" type="checkbox" name="improvement" value="Tasks">
+    <label id="checkbox" for="Tasks">Tasks</label>
+  <br>
+    <input id="Games" type="checkbox" name="improvement" value="Games">
+    <label id="checkbox" for="Games">Games</label>
+    </p>
+    <p><label id="checkbox" for="comments-suggestions">Any comments or suggestions?</label>
+  <br>
+   <input id="comments-suggestions" type="textarea" name="comments-suggestions" placeholder="Enter your comment here..."></p>
+    <p><button id="submit" type="submit">Submit</button></p>
+</form>
+</div>
+</body>
+</html>

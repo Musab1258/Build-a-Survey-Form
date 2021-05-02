@@ -1,0 +1,58 @@
+@media (min-height: 801px) {
+  body {
+    font-size: 20px;
+    margin: 5px;
+    background-color: #1ABC9C;
+  }
+}
+body {
+  color: #f3f3f3;
+  background-color: #37af65;
+}
+#header {
+  text-align: center;
+}
+#form {
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 10vh 10vw 10vh 10vw;
+  background-color: #1b1b32;
+}
+input {
+  font-size: 80%;
+  width: 90%;
+  height: 4vh;
+  margin: 3%;
+}
+label {
+  margin-left: 3%;
+}
+select {
+  font-size: 80%;
+  width: 90%;
+  height: 4vh;
+  margin: 3%; 
+}
+[type="radio"] {
+  width: 3vw;
+  height: 2vh;
+  margin-right: 0;
+}
+#radio {
+  margin-left: 0;
+}
+[type="checkbox"] {
+  width: 3vw;
+  height: 2vh;
+  margin-right: 0;
+}
+#checkbox {
+  margin-left: 0;
+}
+button {
+  font-size: 80%;
+  width: 90%;
+  height: 4vh;
+  margin: 3%;
+  background-color: green; 
+}
